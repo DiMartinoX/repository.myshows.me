@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.myshows" name="[COLOR FF00AAFF]MyShows.ru (Service)[/COLOR]" version="0.1.6" provider-name="DiMartino">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.simplejson" version="2.0.10"/>
+        <import addon="plugin.video.myshows" version="1.5.8"/>
+		<import addon="script.module.requests"/>
+	</requires>
+	<extension point="xbmc.service" name="myshows.service" library="service.py" start="login" />
+	<extension point="xbmc.python.script" library="sync_exec.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata" name="myshows.metadata">
+		<summary lang="en">MyShows.ru (Service)</summary>
+		<description lang="en">Дополнительная служба к плагину MyShows.ru, которая автоматически отмечает эпизоды просмотренные в разделе "Сериалы" XBMC, а также фильмы на KinoPoisk.ru.</description>
+		<platform>all</platform>
+	</extension>
+</addon>

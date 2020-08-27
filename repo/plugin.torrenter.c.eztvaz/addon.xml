@@ -1,0 +1,17 @@
+﻿<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<addon id='plugin.torrenter.c.eztvaz' version='1.0.2' name='Torrenter EZTV A-Z' provider-name='DiMartino'>
+  <requires>
+     <import addon="xbmc.python" version="2.1.0"/>
+     <import addon="plugin.video.torrenter"/>
+  </requires>
+  <extension point='xbmc.python.pluginsource' library='default.py'>
+        <provides>video</provides>
+  </extension>
+  <extension point='xbmc.addon.metadata'>
+    <platform>all</platform>
+    <language>en</language>
+    <license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</license>
+    <summary lang='en'>Torrenter EZTV A-Z</summary>
+    <description lang='en'>Torrenter EZTV A-Z!</description>
+  </extension>
+</addon>

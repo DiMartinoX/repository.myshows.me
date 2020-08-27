@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="kodi-vk.inpos.ru" version="1.2.5" name="VK Add-on" provider-name="inpos">
+<requires>
+  <import addon="xbmc.python" version="2.14.0"/>
+  <import addon="script.module.vk"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="default.py">
+  <provides>image video</provides>
+</extension>
+<extension point="xbmc.addon.metadata"> 
+  <summary lang="en">Vkontakte for Kodi</summary>
+  <summary lang="ru">ВКонтакте для Kodi</summary>
+  <license>GPLv3</license>
+  <description lang="en">Addon for getting content from vkontakte(vk.com) social network.</description>
+  <description lang="ru">Дополнение для получения содержимого из социальной сети ВКонтакте.</description>
+  <platform>all</platform> 
+</extension>
+</addon>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<addon id='torrenter.searcher.Toloka' version='1.2.0'
+     name='Torrenter Searcher: Toloka' provider-name='GeRain, hmark'>
+  <requires>
+    <import addon='xbmc.python' version='2.1.0'/>
+  </requires>
+  <extension point="xbmc.python.script" library="__init__.py">
+    <provides>executable</provides>
+  </extension>
+      <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang='en'>Torrenter v2 Searcher module for toloka.to.
+        </summary>
+        <description lang='en'>Torrenter v2 Searcher module for toloka.to.
+        </description>
+        <disclaimer lang='en'>GNU GPLv3 http://www.gnu.org/licenses/</disclaimer>
+        <summary lang='uk'>Шукач плагіну Torrenter v2 для трекера toloka.to.
+        </summary>
+        <description lang='uk'>Шукач плагіну Torrenter v2 для трекера toloka.to.
+        </description>
+        <disclaimer lang='uk'>GNU GPLv3 http://www.gnu.org/licenses/</disclaimer>
+        <summary lang='ru'>Серчер украинского трекера toloka.to для плагина Torrenter v2.
+        </summary>
+        <description lang='ru'>Серчер украинского трекера toloka.to для плагина Torrenter v2.
+        </description>
+    </extension>
+  <extension point='xbmc.python.module'/>
+</addon>

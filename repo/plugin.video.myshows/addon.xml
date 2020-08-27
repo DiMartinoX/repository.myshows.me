@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<addon id="plugin.video.myshows"
+       name="[COLOR FFFFFFFF][/COLOR][COLOR FF00AAFF]MyShows.ru[/COLOR]"
+       version="1.10.15ca"
+       provider-name="DiMartino">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.libtorrent"/>
+    <import addon="script.module.torrent.ts"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" provides="video" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>MyShows.ru</summary>
+    <description>
+Плагин для сайта MyShows.ru позволяет управлять вашим профилем.
+Смотреть сериалы онлайн с помощью Torrenter, скачивать в µTorrent или Transmission.
+Переносить сериалы в библиотеку XBMC.
+Подробнее на xbmc.ru
+    </description>
+    <platform>all</platform>
+    <forum>http://xbmc.ru/forum/showthread.php?t=3264</forum>
+  </extension>
+</addon>

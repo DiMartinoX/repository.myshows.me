@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<addon id="service.myshowscc"
+       name="MyShows.ru Control Center"
+       version="0.0.2"
+       provider-name="DiMartino">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="plugin.video.myshows" version="1.9.8"/>
+  </requires>
+  <extension point="xbmc.python.script"         library="test.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>MyShows.ru Control Center</summary>
+    <description>
+Управление плагином MyShows.ru.
+    </description>
+    <platform>all</platform>
+  </extension>
+</addon>

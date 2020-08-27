@@ -1,0 +1,17 @@
+﻿1.2.0
+Зміни / Changes:
+* Виправлено параметри пошуку / Fixed search params (GeRain)
+* Чистка коду / Cleaning code (GeRain)
++ Налаштування: Сортувати за Датою|Завантаженнями|Розміром|Роздаючими / Settings: Sort by Date|Downloads|Size|Seeders
+* Обробка всіх сторінок пошуку, або тільки першої / Processing of all search pages, or just the first
++ Налаштування: Результати тільки з першої сторінки / Settings: Results from the first page only
+
+1.1.0
+Зміни / Changes:
+* Виправлено результат пошуку / Fixed search result (hmark)
++ Сортування за сідерами / Sorting by seeders count (hmark)
++ Додано 2-гу сторінку пошуку з трекера - тепер список може відображати до 90 записів / Added 2nd page of tracker's search result - now list can show up to 90 items (hmark)
+
+1.0.0
+Зміни / Changes:
++ Створено плагін / Plugin created (GeRain)

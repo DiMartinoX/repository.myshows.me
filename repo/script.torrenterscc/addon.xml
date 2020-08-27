@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<addon id="script.torrenterscc"
+       name="Torrenter Control Center"
+       version="0.0.2a"
+       provider-name="DiMartino">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.script"         library="test.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Torrenter Control Center</summary>
+    <description>Calls Torrenter Control Center
+    </description>
+    <platform>all</platform>
+  </extension>
+</addon>
