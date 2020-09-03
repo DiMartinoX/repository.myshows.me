@@ -117,11 +117,11 @@
     </extension>
 </addon>
 
-<addon id="repository.myshows.me" name="MyShows.me Kodi Repo" version="1.0.6" provider-name="DiMartino">
+<addon id="repository.myshows.me" name="MyShows.me Kodi Repo" version="1.0.7" provider-name="DiMartino">
 	<extension point="xbmc.addon.repository" name="MyShows.me Kodi Repo">
-		<info compressed="false">https://bitbucket.org/DiMartino/myshows.me-kodi-repo/raw/default/addons.xml</info>
-		<checksum>https://bitbucket.org/DiMartino/myshows.me-kodi-repo/raw/default/addons.xml.md5</checksum>
-		<datadir zip="true">https://bitbucket.org/DiMartino/myshows.me-kodi-repo/raw/default/repo/</datadir>
+		<info compressed="true">https://raw.github.com/DiMartinoX/repository.myshows.me/master/repo/addons.xml</info>
+		<checksum>https://raw.github.com/DiMartinoX/repository.myshows.me/master/repo/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.github.com/DiMartinoX/repository.myshows.me/master/repo/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>Устанавливайте дополнения из репозитория MyShows.me</summary>
@@ -324,7 +324,7 @@
   </extension>
 </addon>
 
-<addon id="script.myshows" name="[COLOR FF00AAFF]MyShows.ru (Service)[/COLOR]" version="0.1.6" provider-name="DiMartino">
+<addon id="script.myshows" name="[COLOR FF00AAFF]MyShows.ru (Service)[/COLOR]" version="0.1.6a" provider-name="DiMartino">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 		<import addon="script.module.simplejson" version="2.0.10"/>
@@ -662,7 +662,7 @@
   <extension point='xbmc.python.module'/>
 </addon>
 
-<addon id='torrenter.searcher.RuTrackerOrg' version='1.0.9'
+<addon id='torrenter.searcher.RuTrackerOrg' version='1.0.10'
      name='Torrenter Searcher: RuTrackerOrg' provider-name='DiMartino'>
   <requires>
     <import addon='xbmc.python' version='2.1.0'/>
