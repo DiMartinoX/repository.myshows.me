@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e04349aa-801e-4490-be34-ed4f6e12538d" name="Default Changelist" comment="" />
+    <list default="true" id="e04349aa-801e-4490-be34-ed4f6e12538d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,13 +38,17 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="277" key="FileChooserDialogImpl" timestamp="1598553941021">
+    <state x="414" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598802800089">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="277" key="FileChooserDialogImpl/0.0.1920.1040/-3840.0.1920.1040@0.0.1920.1040" timestamp="1598553941021" />
-    <state x="463" y="165" key="SettingsEditor" timestamp="1598553944224">
+    <state x="414" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-3840.0.1920.1040@0.0.1920.1040" timestamp="1598802800089" />
+    <state x="740" y="277" key="FileChooserDialogImpl" timestamp="1598802772176">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="463" y="165" key="SettingsEditor/0.0.1920.1040/-3840.0.1920.1040@0.0.1920.1040" timestamp="1598553944224" />
+    <state x="740" y="277" key="FileChooserDialogImpl/0.0.1920.1040/-3840.0.1920.1040@0.0.1920.1040" timestamp="1598802772176" />
+    <state x="463" y="165" key="SettingsEditor" timestamp="1598802756826">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="463" y="165" key="SettingsEditor/0.0.1920.1040/-3840.0.1920.1040@0.0.1920.1040" timestamp="1598802756826" />
   </component>
 </project>
